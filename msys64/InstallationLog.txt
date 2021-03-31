@@ -1,0 +1,95 @@
+************************************* Invoked: 周三 3月 31 21:46:42 2021
+[0] Arguments: F:\迅雷下载\msys2-x86_64-20210228.exe
+[14] Operations sanity check succeeded.
+[14] Language: zh-CN
+[3648] 正在准备下载元信息...
+[3675] Warning: Empty filename passed to function
+[3675] Warning: Empty filename passed to function
+[3676] Warning: Empty filename passed to function
+[3693] Warning: Empty filename passed to function
+[3693] Warning: Empty filename passed to function
+[3693] Warning: Empty filename passed to function
+[3698] Warning: Empty filename passed to function
+[3699] Warning: Empty filename passed to function
+[3699] Warning: Empty filename passed to function
+[3700] Warning: Empty filename passed to function
+[3700] Warning: Empty filename passed to function
+[3701] Warning: Empty filename passed to function
+[3702] Warning: Empty filename passed to function
+[3702] Warning: Empty filename passed to function
+[3703] Warning: Empty filename passed to function
+[3864] Warning: Empty filename passed to function
+[3864] Warning: Empty filename passed to function
+[3865] Warning: Empty filename passed to function
+[3865] Warning: Empty filename passed to function
+[3865] Warning: Empty filename passed to function
+[3865] Warning: Empty filename passed to function
+[23999] backup  operation: Mkdir
+[23999] 	- arguments: F:/00RTC/telegram/ThirdParty/msys64
+[23999] Done
+[23999] perform  operation: Mkdir
+[23999] 	- arguments: F:/00RTC/telegram/ThirdParty/msys64
+[23999] Done
+[23999] 正在准备安装…
+[23999] Install size: 2 components
+[24032] 正在安装组件 MSYS2 64bit base
+[24032] backup com.msys2.root.base operation: Extract
+[24032] 	- arguments: installer://com.msys2.root.base/20210228msys64.7z, F:\00RTC\telegram\ThirdParty\msys64
+[24032] Done
+[24032] perform com.msys2.root.base operation: Extract
+[24032] 	- arguments: installer://com.msys2.root.base/20210228msys64.7z, F:\00RTC\telegram\ThirdParty\msys64
+[71179] Done
+[71180] backup com.msys2.root.base operation: CreateShortcut
+[71180] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 32-bit.lnk, -mingw32, iconPath=F:\00RTC\telegram\ThirdParty\msys64/mingw32.exe
+[71180] Done
+[71181] perform com.msys2.root.base operation: CreateShortcut
+[71181] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 32-bit.lnk, -mingw32
+[71216] Done
+[71216] backup com.msys2.root.base operation: CreateShortcut
+[71216] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 64-bit.lnk, -mingw64, iconPath=F:\00RTC\telegram\ThirdParty\msys64/mingw64.exe
+[71216] Done
+[71216] perform com.msys2.root.base operation: CreateShortcut
+[71216] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 64-bit.lnk, -mingw64
+[71228] Done
+[71228] backup com.msys2.root.base operation: CreateShortcut
+[71228] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MSYS.lnk, -msys, iconPath=F:\00RTC\telegram\ThirdParty\msys64/msys2.exe
+[71229] Done
+[71229] perform com.msys2.root.base operation: CreateShortcut
+[71229] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\msys2_shell.cmd, C:\Users\lijun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MSYS.lnk, -msys
+[71239] Done
+[71240] backup com.msys2.root.base operation: Execute
+[71240] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\usr\bin\bash.exe, --login, -c, exit
+[71240] Done
+[71240] perform com.msys2.root.base operation: Execute
+[71240] 	- arguments: F:\00RTC\telegram\ThirdParty\msys64\usr\bin\bash.exe, --login, -c, exit
+[71256] F:\\00RTC\\telegram\\ThirdParty\\msys64\\usr\\bin\\bash.exe" started, arguments: "--login -c exit
+[72710] Copying skeleton files.\nThese files are for the users to personalise their msys2 experience.\n\nThey will never be overwritten nor automatically updated.\n\n
+[72864] './.bashrc' -> '/home/lijun/.bashrc'\n
+[72896] './.bash_logout' -> '/home/lijun/.bash_logout'\n
+[72969] './.bash_profile' -> '/home/lijun/.bash_profile'\n
+[73000] './.inputrc' -> '/home/lijun/.inputrc'\n
+[73073] './.profile' -> '/home/lijun/.profile'\n
+[73388] 'C:\\WINDOWS\\system32\\drivers\\etc\\hosts' -> '/etc/hosts'\n
+[73399] 'C:\\WINDOWS\\system32\\drivers\\etc\\protocol' -> '/etc/protocols'\n
+[73560] 'C:\\WINDOWS\\system32\\drivers\\etc\\services' -> '/etc/services'\n
+[73633] 'C:\\WINDOWS\\system32\\drivers\\etc\\networks' -> '/etc/networks'\n
+[76773] ==> Updating trust database...\n
+[76927] ==> Appending keys from msys2.gpg...\n
+[77244] ==> Locally signing trusted keys in keyring...\n  -> Locally signing key 123D4D51A1793859C2BE916BBBE514E53E0D0813...\n
+[77559]   -> Locally signing key B91BCF3303284BF90CC043CA9F418C233E652008...\n
+[77924]   -> Locally signing key 6E8FEAFF9644F54EED90EEA0790AE56A1D3CFDDC...\n
+[78240]   -> Locally signing key 69985C5EB351011C78DF7F6D755B8182ACD22879...\n
+[78397]   -> Locally signing key 9DD0D4217D75A33B896159E6DA7EF2ABAEEA755C...\n
+[78712]   -> Locally signing key D55E7A6D7CE9BA1587C0ACACF40D263ECA25678A...\n
+[78866] ==> Importing owner trust values...\n
+[78971] ==> Disabling revoked keys in keyring...\n
+[79044]   -> Disabling key B19514FB53EB3668471B296E794DCF97F93FC717...\n
+[79359] ==> Updating trust database...\n
+[141869] \x1B[H\x1B[2J\x1B[3J\n\n###################################################################\n#                                                                 #\n#                                                                 #\n#                   C   A   U   T   I   O   N                     #\n#                                                                 #\n#                  This is first start of MSYS2.                  #\n#       You MUST restart shell to apply necessary actions.        #\n#                                                                 #\n#                                                                 #\n###################################################################\n\n\n
+[141901] \x1B[H\x1B[2J\x1B[3J
+[141935] Done
+[142303] Writing maintenance tool: "F:\\00RTC\\telegram\\ThirdParty\\msys64/maintenancetool.exe.new"
+[142303] 编写维护工具
+[142437] Wrote permissions for maintenance tool.
+[143047] Maintenance tool restart: false.
+[143079] 安装已完成!
