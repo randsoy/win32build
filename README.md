@@ -1,6 +1,17 @@
 # win32 编译环境搭建
 
-##  安装部署说明
+## 1_使用说明
+
+打开 **x86 Native Tools Command Prompt for VS 2019.bat** 进入到当前git目录，后续编译就用这个终端进行编译
+
+```
+SET PATH=%cd%\Strawberry\perl\bin;%cd%\Python27;%cd%\NASM;%cd%\jom;%cd%\cmake\bin;%cd%\yasm;%PATH%
+
+```
+
+
+
+##  2_安装部署说明
 
 只适用于第一次使用，后续通过git仓库更新
 
